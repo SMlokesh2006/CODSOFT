@@ -47,7 +47,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    padding: 100px 20px;
+    padding: 80px 20px;
     background: linear-gradient(120deg, #6200ea, #b06ab3);
     color: white;
 }
@@ -112,7 +112,7 @@ body {
     margin-top: 30px;
 }
 
- #skills, #projects, #contact {
+ #skills, #projects {
     padding: 60px 20px;
     text-align: center;
 }
@@ -130,6 +130,9 @@ body {
     margin: 10px;
     border-radius: 20px;
     font-weight: 500;
+}
+.skill-item a:hover{
+    color: #b06ab3;
 }
 .projects-wrapper {
     display: flex;
@@ -198,8 +201,8 @@ footer {
     background: linear-gradient(120deg, #6200ea, #b06ab3);
     padding: 20px;
     border-radius: 10px;
-    width: 80%;
-    max-width: 400px;
+    width: 100%;
+    max-width: 500px;
     text-align: center;
     color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -211,11 +214,11 @@ footer {
     top: -50px;
     left: 50%;
     transform: translateX(-50%);
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     overflow: hidden;
-    border: 4px solid white;
+    border: 5px solid white;
 }
 
 .profile-picture img {
@@ -243,5 +246,67 @@ footer {
     background-color: #f8f9fa;
     text-align: center;
 }*/
+.contact-card {
+  background: linear-gradient(135deg, #6e1dbf, #c01cc4);
+  padding: 30px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contact-card h2 {
+  margin-bottom: 10px;
+  font-size: 1.8em;
+}
+
+.contact-card p {
+  font-size: 1em;
+  margin: 10px 0 20px;
+}
+
+.contact-options {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.contact-option {
+  text-align: center;
+  max-width: 150px;
+}
+
+.contact-option i {
+  font-size: 1.8em;
+  color: #ffd700;
+}
+
+.contact-option span {
+  display: block;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.contact-option p {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+
+.contact-button {
+  background-color: #ffd700;
+  color: #6e1dbf;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #ffb700;
+}
 
 
