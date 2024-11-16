@@ -1,0 +1,76 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:#dbeaff;
+}
+  
+  /* Calculator container */
+  .calculator {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 320px;
+  }
+  
+  /* Display */
+  .display {
+    background: #333333;
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: right;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow-x: auto;
+  }
+  
+  /* Buttons grid */
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  /* Button styles */
+  button {
+    background: #f0f0f0;
+    border: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background: #e0e0e0;
+  }
+  
+  button:active {
+    background: #d0d0d0;
+  }
+  
+  button.equals {
+    background: #ff6f61;
+    color: white;
+    grid-column: span 2;
+  }
+  
+  button.equals:hover {
+    background: #e65c50;
+  }
+  
+  button.zero {
+    grid-column: span 2;
+  }
+  
